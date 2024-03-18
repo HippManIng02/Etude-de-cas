@@ -1,8 +1,6 @@
 #include <stdlib.h> // malloc , free
 #include <math.h>   // pow
-void baseline(unsigned n, const double a[n][n],
-
-              double b[n][n])
+void kernel(unsigned n, const double a[n][n],double b[n][n])
 
 {
     unsigned i, j;
