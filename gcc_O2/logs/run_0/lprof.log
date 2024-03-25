@@ -1,0 +1,67 @@
+
+* Info: Selecting the 'perf-low-ppn' engine for node hippolyte-Lenovo-YOGA-530-14ARR
+
+* Info: "ref-cycles" not supported on hippolyte-Lenovo-YOGA-530-14ARR: fallback to "cpu-clock"
+* Info: Process launched (host hippolyte-Lenovo-YOGA-530-14ARR, process 63030)Metarepetition 1/31: running 4 warmup instances and 100 measure instances
+Metarepetition 2/31: running 1 warmup instances and 100 measure instances
+Metarepetition 3/31: running 1 warmup instances and 100 measure instances
+Metarepetition 4/31: running 1 warmup instances and 100 measure instances
+Metarepetition 5/31: running 1 warmup instances and 100 measure instances
+Metarepetition 6/31: running 1 warmup instances and 100 measure instances
+Metarepetition 7/31: running 1 warmup instances and 100 measure instances
+Metarepetition 8/31: running 1 warmup instances and 100 measure instances
+Metarepetition 9/31: running 1 warmup instances and 100 measure instances
+Metarepetition 10/31: running 1 warmup instances and 100 measure instances
+Metarepetition 11/31: running 1 warmup instances and 100 measure instances
+Metarepetition 12/31: running 1 warmup instances and 100 measure instances
+Metarepetition 13/31: running 1 warmup instances and 100 measure instances
+Metarepetition 14/31: running 1 warmup instances and 100 measure instances
+Metarepetition 15/31: running 1 warmup instances and 100 measure instances
+Metarepetition 16/31: running 1 warmup instances and 100 measure instances
+Metarepetition 17/31: running 1 warmup instances and 100 measure instances
+Metarepetition 18/31: running 1 warmup instances and 100 measure instances
+Metarepetition 19/31: running 1 warmup instances and 100 measure instances
+Metarepetition 20/31: running 1 warmup instances and 100 measure instances
+Metarepetition 21/31: running 1 warmup instances and 100 measure instances
+Metarepetition 22/31: running 1 warmup instances and 100 measure instances
+Metarepetition 23/31: running 1 warmup instances and 100 measure instances
+Metarepetition 24/31: running 1 warmup instances and 100 measure instances
+Metarepetition 25/31: running 1 warmup instances and 100 measure instances
+Metarepetition 26/31: running 1 warmup instances and 100 measure instances
+Metarepetition 27/31: running 1 warmup instances and 100 measure instances
+Metarepetition 28/31: running 1 warmup instances and 100 measure instances
+Metarepetition 29/31: running 1 warmup instances and 100 measure instances
+Metarepetition 30/31: running 1 warmup instances and 100 measure instances
+Metarepetition 31/31: running 1 warmup instances and 100 measure instances
+MIN 192073050 RDTSC-cycles (0.14 per inner-iter)
+MED 193244100 RDTSC-cycles (0.14 per inner-iter)
+GOOD STABILITY: 0.61 %
+
+* Info: Process finished (host hippolyte-Lenovo-YOGA-530-14ARR, process 63030)
+* Warning: Collected empty callchains for 100.0% of 1st-event samples
+
+* Info: Callchains info will be incomplete
+* Info: Try to recompile your application with -fno-omit-frame-pointer or to rerun with btm=stack
+* Warning: Run too short with the given sampling rate (only 507 time-related samples collected). Results may lack precision. Rerun with a longer workload or with sampling-rate=high.
+
+* Info: Dumping samples (host hippolyte-Lenovo-YOGA-530-14ARR, process 63030)
+* Info: Dumping source info for callchain nodes (host hippolyte-Lenovo-YOGA-530-14ARR, process 63030)
+* Info: Building/writing metadata (host hippolyte-Lenovo-YOGA-530-14ARR)
+* Info: Finished collect step (host hippolyte-Lenovo-YOGA-530-14ARR, process 63030)
+
+Your experiment path is /home/hippolyte/Documents/Projet/AOA/demo_2024/Etude-de-cas/gcc_O2/tools/lprof_npsu_run_0
+
+To display your profiling results:
+#####################################################################################################################################################
+#    LEVEL    |     REPORT     |                                                      COMMAND                                                       #
+#####################################################################################################################################################
+#  Functions  |  Cluster-wide  |  maqao lprof -df xp=/home/hippolyte/Documents/Projet/AOA/demo_2024/Etude-de-cas/gcc_O2/tools/lprof_npsu_run_0      #
+#  Functions  |  Per-node      |  maqao lprof -df -dn xp=/home/hippolyte/Documents/Projet/AOA/demo_2024/Etude-de-cas/gcc_O2/tools/lprof_npsu_run_0  #
+#  Functions  |  Per-process   |  maqao lprof -df -dp xp=/home/hippolyte/Documents/Projet/AOA/demo_2024/Etude-de-cas/gcc_O2/tools/lprof_npsu_run_0  #
+#  Functions  |  Per-thread    |  maqao lprof -df -dt xp=/home/hippolyte/Documents/Projet/AOA/demo_2024/Etude-de-cas/gcc_O2/tools/lprof_npsu_run_0  #
+#  Loops      |  Cluster-wide  |  maqao lprof -dl xp=/home/hippolyte/Documents/Projet/AOA/demo_2024/Etude-de-cas/gcc_O2/tools/lprof_npsu_run_0      #
+#  Loops      |  Per-node      |  maqao lprof -dl -dn xp=/home/hippolyte/Documents/Projet/AOA/demo_2024/Etude-de-cas/gcc_O2/tools/lprof_npsu_run_0  #
+#  Loops      |  Per-process   |  maqao lprof -dl -dp xp=/home/hippolyte/Documents/Projet/AOA/demo_2024/Etude-de-cas/gcc_O2/tools/lprof_npsu_run_0  #
+#  Loops      |  Per-thread    |  maqao lprof -dl -dt xp=/home/hippolyte/Documents/Projet/AOA/demo_2024/Etude-de-cas/gcc_O2/tools/lprof_npsu_run_0  #
+#####################################################################################################################################################
+

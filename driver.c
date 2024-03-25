@@ -78,7 +78,7 @@ int main (int argc, char *argv[]) {
       free (b);
    }
 
-   const uint64_t nb_inner_iters = size * size * size * repm; // TODO adjust for each kernel
+   const uint64_t nb_inner_iters = size * size * repm; // TODO adjust for each kernel
    qsort (tdiff, NB_METAS, sizeof tdiff[0], cmp_uint64);
    printf ("MIN %lu RDTSC-cycles (%.2f per inner-iter)\n",
            tdiff[0], (double) tdiff[0] / nb_inner_iters);
