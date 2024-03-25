@@ -1,0 +1,12 @@
+address;source_location;insn;indent
+0x18b0;/home/hippolyte/Documents/Projet/AOA/demo_2024/Etude-de-cas/kernel.c:27;MOV	(%RSP),%RAX;
+0x18b4;/home/hippolyte/Documents/Projet/AOA/demo_2024/Etude-de-cas/kernel.c:27;MOVSD	(%R13,%R14,1),%XMM0;
+0x18bb;/home/hippolyte/Documents/Projet/AOA/demo_2024/Etude-de-cas/kernel.c:27;MOVSD	(%RAX,%R14,1),%XMM1;
+0x18c1;/home/hippolyte/Documents/Projet/AOA/demo_2024/Etude-de-cas/kernel.c:27;CALL	1100 <.plt.sec@start+0x20>;
+0x18c6;/home/hippolyte/Documents/Projet/AOA/demo_2024/Etude-de-cas/kernel.c:27;MOV	0x10(%RSP),%RAX;
+0x18cb;/home/hippolyte/Documents/Projet/AOA/demo_2024/Etude-de-cas/kernel.c:27;MOV	%EBP,%ESI;
+0x18cd;/home/hippolyte/Documents/Projet/AOA/demo_2024/Etude-de-cas/kernel.c:25;ADD	$0x1,%EBP;
+0x18d0;/home/hippolyte/Documents/Projet/AOA/demo_2024/Etude-de-cas/kernel.c:27;MOVSD	%XMM0,(%RAX,%R14,1);
+0x18d6;/home/hippolyte/Documents/Projet/AOA/demo_2024/Etude-de-cas/kernel.c:25;ADD	%R15,%R14;
+0x18d9;/home/hippolyte/Documents/Projet/AOA/demo_2024/Etude-de-cas/kernel.c:25;CMP	%R12D,%ESI;
+0x18dc;/home/hippolyte/Documents/Projet/AOA/demo_2024/Etude-de-cas/kernel.c:25;JNE	18b0 <kernel+0xa0>;

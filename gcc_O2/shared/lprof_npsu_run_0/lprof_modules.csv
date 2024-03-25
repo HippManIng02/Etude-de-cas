@@ -1,0 +1,4 @@
+name;time_p;time_s;cpi_ratio;
+/usr/lib/x86_64-linux-gnu/libm.so.6;82.64;2.09;;
+/home/hippolyte/Documents/Projet/AOA/demo_2024/Etude-de-cas/gcc_O2/binaries/measure_gcc_O2;14.6;0.37;;
+/usr/lib/x86_64-linux-gnu/libc.so.6;2.76;0.07;;
