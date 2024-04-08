@@ -1,0 +1,9 @@
+address;source_location;insn;indent
+0x1338;/home/hippolyte/Documents/Projet/AOA/demo_2024/Etude-de-cas/driver.c:18;CALL	1170 <.plt.sec@start+0x90>;
+0x133d;/home/hippolyte/Documents/Projet/AOA/demo_2024/Etude-de-cas/driver.c:18;PXOR	%XMM0,%XMM0;
+0x1341;/home/hippolyte/Documents/Projet/AOA/demo_2024/Etude-de-cas/driver.c:17;ADD	$0x8,%R14;
+0x1345;/home/hippolyte/Documents/Projet/AOA/demo_2024/Etude-de-cas/driver.c:18;CVTSI2SD	%EAX,%XMM0;
+0x1349;/home/hippolyte/Documents/Projet/AOA/demo_2024/Etude-de-cas/driver.c:18;DIVSD	0xe07(%RIP),%XMM0;
+0x1351;/home/hippolyte/Documents/Projet/AOA/demo_2024/Etude-de-cas/driver.c:18;MOVSD	%XMM0,-0x8(%R14);
+0x1357;/home/hippolyte/Documents/Projet/AOA/demo_2024/Etude-de-cas/driver.c:17;CMP	%RBX,%R14;
+0x135a;/home/hippolyte/Documents/Projet/AOA/demo_2024/Etude-de-cas/driver.c:17;JNE	1338 <main+0x1b8>;

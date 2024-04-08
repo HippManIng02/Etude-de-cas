@@ -5,11 +5,11 @@ OBJS_COMMON=kernel.o rdtsc.o
 
 all:	check calibrate measure
 
-check:	$(OBJS_COMMON) driver_check.o
+check:	$(OBJS_COMMON) -lm driver_check.o
 	$(CC) -o $@ $^
-calibrate: $(OBJS_COMMON) driver_calib.o
+calibrate: $(OBJS_COMMON) -lm driver_calib.o
 	$(CC) -o $@ $^
-measure: $(OBJS_COMMON) driver.o
+measure: $(OBJS_COMMON) -lm driver.o
 	$(CC) -o $@ $^
 
 driver_check.o: driver_check.c

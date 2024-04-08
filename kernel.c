@@ -1,8 +1,67 @@
+#ifdef OPT1
+
+//Remove using of middle table
 #include <stdlib.h> // malloc , free
 #include <math.h>   // pow
-void baseline(unsigned n, const double a[n][n],
+void kernel(unsigned n, const double a[n][n],double b[n][n])
 
-              double b[n][n])
+{
+    unsigned i, j;
+    for (j = 0; j < n; j++)
+    {
+        for (i = 0; i < n; i++)
+        {
+            if (i < j)
+            {
+                 b[i][j] = pow(a[i][j], 0.0);
+            }
+            else if (i > j)
+            {
+                 b[i][j] = pow(a[i][j], 2.0);
+            }
+            else
+            {
+                 b[i][j] = pow(a[i][j], 1.0);
+            }
+        }
+    }
+}
+
+#elif defined OPT2
+//Remove using the pow function
+#include <stdlib.h> // malloc , free
+#include <math.h>   // pow
+void kernel(unsigned n, const double a[n][n],double b[n][n])
+
+{
+    unsigned i, j;
+    for (j = 0; j < n; j++)
+    {
+        for (i = 0; i < n; i++)
+        {
+            if (i < j)
+            {
+                 b[i][j] = 1;
+            }
+            else if (i > j)
+            {
+                 b[i][j] = a[i][j] * a[i][j];
+            }
+            else
+            {
+                 b[i][j] = a[i][j];
+            }
+        }
+    }
+}
+
+#else
+
+/* original */
+
+#include <stdlib.h> // malloc , free
+#include <math.h>   // pow
+void kernel(unsigned n, const double a[n][n],double b[n][n])
 
 {
     unsigned i, j;
@@ -31,3 +90,6 @@ void baseline(unsigned n, const double a[n][n],
     }
     free(c);
 }
+
+#endif
+
