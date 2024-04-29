@@ -55,6 +55,29 @@ void kernel(unsigned n, const double a[n][n],double b[n][n])
     }
 }
 
+#elif define OPT5
+#include <stdlib.h> // malloc , free
+#include <math.h> // pow
+
+void kernel(unsigned n, const double a[n][n],double b[n][n])
+{
+    unsigned i, j;
+    for (i = 0; i < n; i++)
+    {
+        for (j = 0; j < i ; j++)
+        {
+            b[i][j] = 0;
+        }
+        for (j = i+1; j < n ; j++)
+        {
+            b[i][j] = 2;
+        }
+
+                 b[i][j] = 1;
+            }
+}
+
+
 #else
 
 /* original */
@@ -92,4 +115,3 @@ void kernel(unsigned n, const double a[n][n],double b[n][n])
 }
 
 #endif
-
