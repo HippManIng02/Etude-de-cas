@@ -1,2 +1,0 @@
-node;proc_name;architecture_code;uarchitecture_code;architecture;uarchitecture;cpui_model_name;cpui_cache_size;cpui_cpu_cores;max_frequency;cur_frequency;driver_frequency;scaling_governor;huge_pages;os_version;pids;
-hippolyte-Lenovo-YOGA-530-14ARR;AMD_fam17h_mod11h;2;31;x86_64;ZEN_V1;AMD Ryzen 3 2200U with Radeon Vega Mobile Gfx;512 KB;2;2500000;1357125;acpi-cpufreq;schedutil;madvise;Linux 6.5.0-25-generic #25~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Feb 20 16:09:15 UTC 2;63030;
