@@ -1,6 +1,6 @@
 CC=gcc
-CFLAGS=-O2 -g -Wall
-OPTFLAGS=-O3 -g -Wall
+CFLAGS=-funroll-loops -g -Wall
+OPTFLAGS=-funroll-loops -g -Wall
 OBJS_COMMON=kernel.o rdtsc.o
 
 all:	check calibrate measure

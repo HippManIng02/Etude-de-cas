@@ -7,3 +7,10 @@ driver_check.o
 kernel.o
 measure.o
 rdtsc.o
+maqao*
+calib.txt
+calibrate
+check
+check.txt
+measure
+out.txt
