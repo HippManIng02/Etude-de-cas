@@ -1,9 +1,0 @@
-function_id;module;function_name;source_info;time_p;time_s;time_s_min;time_s_avg;time_s_max;cov_deviation;time_deviation;nb_threads;cats;label_name;flops;
-681;libm.so.6;f64xsubf128;;65.29;1.65;;;;;;;"0,0,0,100,0,0,0,0,0,0";f64xsubf128;;
-366;libm.so.6;pow;;16.77;0.43;;;;;;;"0,0,0,100,0,0,0,0,0,0";pow;;
-7;measure_gcc_O2;kernel;kernel.c:3-16,kernel.c:25-31;13.81;0.35;;;;;;;"100,0,0,0,0,0,0,0,0,0";kernel;;
-240;libc.so.6;random;;2.37;0.06;;;;;;;"0,0,0,0,0,0,0,0,0,100";random;;
-30;libm.so.6;.plt.sec@start;;0.59;0.01;;;;;;;"0,0,0,100,0,0,0,0,0,0";.plt.sec@start;;
-244;libc.so.6;random_r;;0.39;0.01;;;;;;;"0,0,0,0,0,0,0,0,0,100";random_r;;
-1;measure_gcc_O2;main;stdlib.h:364-364,stdio2.h:105-105,stdio2.h:112-112,driver.c:13-18,driver.c:30-46,driver.c:52-96;0.39;0.01;;;;;;;"100,0,0,0,0,0,0,0,0,0";main;;
--1;measure_gcc_O2;unknown_function;;0.39;0.01;;;;;;;"100,0,0,0,0,0,0,0,0,0";Unknown function;;
