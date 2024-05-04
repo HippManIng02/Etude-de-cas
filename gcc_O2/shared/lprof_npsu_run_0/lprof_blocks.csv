@@ -1,7 +1,0 @@
-block_id;module;source_info;time_p;time_s;time_s_min;time_s_avg;time_s_max;cov_deviation;time_deviation;nb_threads;flops;
-117;measure_gcc_O2;kernel.c:10-14;4.73;0.12;0.12;0.12;0.12;0;0;1;;
-120;measure_gcc_O2;kernel.c:27-27;3.94;0.1;0.1;0.1;0.1;0;0;1;;
-121;measure_gcc_O2;kernel.c:25-27;3.35;0.08;0.08;0.08;0.08;0;0;1;;
-118;measure_gcc_O2;kernel.c:16-16;1.38;0.03;0.03;0.03;0.03;0;0;1;;
-114;measure_gcc_O2;kernel.c:12-12;0.39;0.01;0.01;0.01;0.01;0;0;1;;
-24;measure_gcc_O2;driver.c:17-18;0.39;0.01;0.01;0.01;0.01;0;0;1;;

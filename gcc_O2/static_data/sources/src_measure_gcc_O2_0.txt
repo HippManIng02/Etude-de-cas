@@ -1,5 +1,0 @@
-/home/hippolyte/Documents/Projet/AOA/demo_2024/Etude-de-cas/driver.c: 17 - 18
---------------------------------------------------------------------------------
-
-17:       for (j=0; j<n; j++)
-18:          a[i][j] = (double) rand() / RAND_MAX;

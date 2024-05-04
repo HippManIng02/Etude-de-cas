@@ -1,5 +1,0 @@
-Node;Process;Thread;System (%);Binary (%);MPI (%);Nb Cycle Events;OMP (%);Others (%);String (%);Memory (%);IO (%);Time (s);Math (%);Pthread (%);
-_ALL;_ALL;_ALL;0;14.6;0;507;0;2.76;0;0;0;2.54;82.64;0;
-hippolyte-Lenovo-YOGA-530-14ARR;_ALL;_ALL;0;14.6;0;507;0;2.76;0;0;0;2.54;82.64;0;
-hippolyte-Lenovo-YOGA-530-14ARR;63030;_ALL;0;14.6;0;507;0;2.76;0;0;0;2.54;82.64;0;
-hippolyte-Lenovo-YOGA-530-14ARR;63030;63030;0;14.6;0;507;0;2.76;0;0;0;2.54;82.64;0;
