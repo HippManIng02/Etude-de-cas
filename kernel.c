@@ -74,6 +74,7 @@ void kernel(unsigned n, const double a[n][n],double b[n][n])
 {
     printf("Je suis OPT3!\n");
     unsigned i, j;
+    double(*c)[n] = malloc(n * n * sizeof c[0][0]);
     for (i = 0; i < n; i++)
     {
         for (j = 0; j < n; j++)
@@ -131,7 +132,7 @@ void kernel(unsigned n, const double a[n][n],double b[n][n])
 }
 
 
-#elif define OPT5
+#elif defined OPT5
 /* Élimination des conditions */
 #include <stdlib.h> // malloc , free
 #include <math.h> // pow
@@ -143,14 +144,14 @@ void kernel(unsigned n, const double a[n][n],double b[n][n])
     {
         for (j = 0; j < i ; j++)
         {
-            b[i][j] = 0;
+            b[i][j] = a[i][j] * a[i][j];
         }
         for (j = i+1; j < n ; j++)
         {
-            b[i][j] = 2;
+            b[i][j] = 1;
         }
 
-        b[i][i] = 1;
+        b[i][i] = a[i][i];
     }
 }
 
